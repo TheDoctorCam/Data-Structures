@@ -1,0 +1,14 @@
+Worst-case Run-time complexities:
+
+
+reverse()— 	The worst case run-time complexity of my reverse algorithm is 	
+ 	    	O(n). It run in linear time because the algorithm runs until the
+		created Node temporary head pointer hits a null value. The null value
+		is always hit after n times.
+
+
+remove_if()—	This templated functor also has a run-time complexity of O(n) because
+		it features one list traversial of all n nodes through a for loop that 	
+		initiates at begin() and ends 1 before the tail node. The functor calls
+		on the empty() function, but this function runs at O(1) since it just switches
+		some pointers around and delete’s the old node’s pointer.
